@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="style.css" />
     <title>About Me</title>
   </head>
   <body>
     <header>
-      <h1>About Me:</h1>
+      <h1 id="about">About Me:</h1>
     </header>
-    <section>
-      <p><b>First Name: </b>Kimia</p>
-      <p><b>Last Name:</b> Harris</p>
-      <a href="https://github.com/kharris2023">My GitHub URL</a>
-      <h3>Location:</h3>
-      <figure>
-        <img src="american-flag-clip-art-1.png" width="200px" height="100px" />
-      </figure>
+    <br />
+    <section class="sec1">
+      <fieldset>
+        <h3><b>Name: </b>Kimia Harris</h3>
+        <br />
+        <figure><img id="profilepic" src="IMG_1701.PNG" /></figure>
+        <br />
+        <a href="https://github.com/kharris2023">My GitHub URL</a>
+      </fieldset>
+      <fieldset>
+        <h3>Location:</h3>
+        <figure>
+          <img
+            id="flag"
+            src="american-flag-clip-art-1.png"
+            width="200px"
+            height="100px" />
+        </figure>
+      </fieldset>
     </section>
-    <main>
-      <h3>Hobbies:</h3>
+
+    <fieldset>
+      <legend><h3>Hobbies:</h3></legend>
       <ul>
         <li>Going to concerts</li>
         <li>Painting</li>
@@ -28,12 +41,10 @@
         I'm currently a QC Chemist looking to learn code and become a software
         developer!
       </p>
-      <br>
-      <figure><img src="IMG_1701.PNG" height="200px" width="200px" /></figure>
-    </main>
-
+      <br />
+    </fieldset>
     <section>
-      <br>
+      <br />
       <input type="text" placeholder="Your Name" />
       <br />
       <input type="email" placeholder="Your Email" />
@@ -41,5 +52,6 @@
       <textarea placeholder="Leave a comment!"></textarea>
       <br />
       <button>Submit</button>
+    </section>
   </body>
 </html>

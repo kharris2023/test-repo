@@ -1,0 +1,33 @@
+h1 {
+  color: white;
+  background-color: orange;
+  display: inline;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#about {
+  display: flex;
+  justify-content: center;
+}
+body {
+  background-color: pink;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#profilepic {
+  height: 300px;
+  width: 300px;
+  border-radius: 600px;
+}
+
+.sec1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#flag {
+  height: 300px;
+  width: 300px;
+  border-radius: 600px;
+  display: inline;
+}
